@@ -66,31 +66,31 @@ titleButton.textContent = (siteContent["cta"]["button"]);
 let featureTitle = document.querySelectorAll(".main-content .top-content .text-content h4")[0];
 featureTitle.textContent = (siteContent["main-content"]["features-h4"]);
 
-let featurePara = document.querySelectorAll(".text-content p")[1];
+let featurePara = document.querySelectorAll(".text-content p")[0];
 featurePara.textContent = (siteContent["main-content"]["features-content"]);
 
 // about
 
-let aboutTitle = document.querySelectorAll(".main-content .top-content .text-content h4")[2];
+let aboutTitle = document.querySelectorAll(".main-content .top-content .text-content h4")[1];
 aboutTitle.textContent = (siteContent["main-content"]["about-h4"]);
 
-let aboutPara = document.querySelectorAll(".top-content .text-content p")[3];
+let aboutPara = document.querySelectorAll(".top-content .text-content p")[1];
 aboutPara.textContent = (siteContent["main-content"]["about-content"]);
 
 // services
 
-let mainFeatures3 = document.querySelectorAll(".main-content .bottom-content .text-content h4")[4];
-mainFeatures3.textContent = (siteContent["main-content"]["services-h4"]);
+let servicesTitle = document.querySelectorAll(".main-content .bottom-content .text-content h4")[0];
+servicesTitle.textContent = (siteContent["main-content"]["services-h4"]);
 
-let mainParagraph3 = document.querySelectorAll(".main-content .bottom-content .text-content p")[2];
-mainParagraph3.textContent = (siteContent["main-content"]["services-content"]);
+let servicePara = document.querySelectorAll(".main-content .bottom-content .text-content p")[0];
+servicePara.textContent = (siteContent["main-content"]["services-content"]);
 
 // Product
 
-let mainFeatures4 = document.querySelectorAll(".main-content .bottom-content .text-content h4")[3];
-mainFeatures4.textContent = (siteContent["main-content"]["product-h4"]);
+let productTitle = document.querySelectorAll(".main-content .bottom-content .text-content h4")[1];
+productTitle.textContent = (siteContent["main-content"]["product-h4"]);
 
-let mainParagraph4 = document.querySelectorAll(".main-content .bottom-content .text-content p")[3];
-mainParagraph4.textContent = (siteContent["main-content"]["product-content"]);
+let productPara = document.querySelectorAll(".main-content .bottom-content .text-content p")[1];
+productPara.textContent = (siteContent["main-content"]["product-content"]);
 
 
