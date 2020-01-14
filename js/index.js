@@ -93,4 +93,33 @@ productTitle.textContent = (siteContent["main-content"]["product-h4"]);
 let productPara = document.querySelectorAll(".main-content .bottom-content .text-content p")[1];
 productPara.textContent = (siteContent["main-content"]["product-content"]);
 
+// Vision
+
+let visionTitle = document.querySelectorAll(".main-content .bottom-content .text-content h4")[2];
+visionTitle.textContent = (siteContent["main-content"]["vision-h4"]);
+
+let visionPara = document.querySelectorAll(".main-content .bottom-content .text-content p")[2];
+visionPara.textContent = (siteContent["main-content"]["vision-content"]);
+
+// Contact
+
+let contactTitle = document.querySelectorAll(".contact h4")[0];
+contactTitle.textContent = (siteContent["contact"]["contact-h4"]);
+
+let contactPara1 = document.querySelectorAll(".contact p")[0];
+contactPara1.textContent = (siteContent["contact"]["address"]);
+
+let contactPara2 = document.querySelectorAll(".contact p")[1];
+contactPara2.textContent = (siteContent["contact"]["phone"]);
+
+let contactPara3 = document.querySelectorAll(".contact p")[2];
+contactPara3.textContent = (siteContent["contact"]["email"]);
+
+// footer
+
+
+
+
+
+
 
